@@ -1,0 +1,11 @@
+.Square{
+   
+   width: 133px;
+   height: 99%;
+   max-height: 133px;
+   border: 1px solid black;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+
+}

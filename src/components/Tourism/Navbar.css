@@ -1,0 +1,45 @@
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.d-flex{
+    width: 320px;
+    height: 35px;
+}
+#imglogo{
+  height: fit-content;
+}
+#var{
+    width: 100%;
+    height: 20%; 
+}
+#box{
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;    
+    animation-name: example;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example{
+    0%{
+      background-image: url(./images/var11.jpg);
+    }
+    25%{
+      background-image: url(./images/Var.png);
+    }
+    50%{
+      background-image: url(./images/har_har.jpg);
+    }
+    75%{
+      background-image:  url(./images/var11.jpg);
+    }
+    100%{
+      background-image: url(./images/Var.png);
+    }
+ }  
+ 

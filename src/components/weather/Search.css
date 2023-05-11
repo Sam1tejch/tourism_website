@@ -1,0 +1,23 @@
+.search{
+    border: 1px solid black;
+    background: url("https://wallpaperaccess.com/full/1540090.jpg");
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.resultbox{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+}
